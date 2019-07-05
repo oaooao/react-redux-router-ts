@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本项目是构建在 [Create React App](https://github.com/facebook/create-react-app)之上的.
+
+## 构建流程
+
+### 1. 初始化项目(Typescipt版本的React初始项目)
+```sh
+yarn create react-app AppName --typescript
+```
+> 确保你是安装过[yarn](https://yarnpkg.com/zh-Hans/)的
+
+### 2. 添加 [react-router](https://reacttraining.com/react-router/web/example/animated-transitions)
+```sh
+yarn add react-router-dom
+```
 
 ## Available Scripts
 
